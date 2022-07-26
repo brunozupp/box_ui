@@ -1,3 +1,4 @@
+import 'package:box_ui/box_ui.dart';
 import 'package:flutter/material.dart';
 
 class ExampleView extends StatelessWidget {
@@ -12,7 +13,7 @@ class ExampleView extends StatelessWidget {
       body: ListView(
         padding: const EdgeInsets.all(20),
         children: [
-
+          BoxText.headingOne("Design Systema"),
         ],
       ),
     );
